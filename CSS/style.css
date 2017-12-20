@@ -1,0 +1,50 @@
+.header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;  
+  display: flex;
+    
+}
+
+.div {
+  border-style: solid;
+  border-color: black;
+}
+
+.maincontent{ 
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leftofheader {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+  text-align: left;
+}
+
+.rightofheader {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;  
+  text-align: right;
+  display: inline-block;
+  
+}
+
