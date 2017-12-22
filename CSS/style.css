@@ -7,13 +7,16 @@
     
 }
 
+
+
 .div {
   border-style: solid;
   border-color: black;
 }
 
 .maincontent{ 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia;
+  font-size: 17px;
   color: black;
   display: flex;
 }
@@ -21,6 +24,7 @@
 .column.large {
   width: 630px;
   display: flex;
+  order: horizontal;
 }
 
 .column.medium {
@@ -33,7 +37,66 @@
   display: flex;
 }
 
+/* text for letters on photos  */
+.divmainstory {
+  background-image: url(../images/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
 
+  }
+
+  /* text for story writing */
+  .divinsidetext {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+    display: flex;
+
+}
+
+
+.divotherheadings {
+  /* background-image: url(../images/img-story-main.png); */
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+  display: flex;
+
+  }
+
+  .divotherheadings2 {
+    background-image: url(../images/img-story-2.png);
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    
+    }
+
+    .divotherheadings3 {
+      background-image: url(../images/img-story-3.png);
+      font-family: Georgia;
+      font-weight: bold;
+      font-size: 30px;
+      color: white;
+      display: flex;
+    
+      }
+      .divotherheadings4 {
+        background-image: url(../images/img-story-1.png);
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        display: flex;
+      
+        }
+      
 
 
 
