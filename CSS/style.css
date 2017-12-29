@@ -4,15 +4,19 @@
   font-weight: bold;
   color: mediumaquamarine;  
   display: flex;
+  padding: 20px;
+  
     
 }
-
-
-
-.div {
-  border-style: solid;
-  border-color: black;
+.rightheader {
+  margin-left:auto; margin-right:0;
+  padding: 20px;
+  word-spacing: 15px;
+  
 }
+
+
+
 
 .maincontent{ 
   font-family: Georgia;
@@ -35,8 +39,6 @@
 .column.small {
   width: 240px;
   flex-direction: column;
-  border-top: black;
-  border-bottom: black;
 }
 
 /* text for letters on photos  */
@@ -57,7 +59,7 @@
     font-family: Georgia;
     font-size: 17px;
     color: black;
-    
+    padding: 20px;
 
 }
 
@@ -70,6 +72,7 @@
   color: black;
   
   
+  
 
   }
 
@@ -80,7 +83,7 @@
     font-size: 30px;
     color: white;
     height: 300px;
-    
+    width: 300px;
     
     }
 
@@ -91,6 +94,7 @@
       font-size: 30px;
       color: white;
       height: 300px;
+      width: 300px;
       
     
       }
@@ -101,6 +105,7 @@
         font-size: 30px;
         color: white;
         height: 300px;
+        width: 300px;
         
       
         }
@@ -109,14 +114,49 @@
       .divotherheadings5 {
         font-size: 16px;
         font-weight: bold;
+        padding: 20px;
+        text-align: center;
       }
       .divotherheadings6 {
         background-color: WhiteSmoke;
         font-family: Verdana;
         font-size: 12px;
         color: DimGray;  
+        padding: 20px;
+        
+        
+        
+        
+        
       }
+      .list {
+        
+        border-color: black;
+        
+        border-bottom-style: solid;
+        border-width: thin;
+        padding-left: 10px;
 
+        
+      }
+      .footer {
+        background-color: MediumAquamarine;
+        margin: auto;
+        font-family: Verdana;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+        
+      
+      }
+      .footermytimes {
+        font-family: Georgia;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+      }
 
 
 
