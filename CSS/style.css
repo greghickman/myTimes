@@ -23,10 +23,12 @@
   font-size: 17px;
   color: black;
   display: flex;
+  
 }
 
 .column.large {
   width: 630px;
+  
   
   order: horizontal;
 }
@@ -60,6 +62,7 @@
     font-size: 17px;
     color: black;
     padding: 20px;
+    
 
 }
 
@@ -141,7 +144,7 @@
       }
       .footer {
         background-color: MediumAquamarine;
-        margin: auto;
+        mmargin: auto;
         font-family: Verdana;
         font-size: 12px;
         display: flex;
